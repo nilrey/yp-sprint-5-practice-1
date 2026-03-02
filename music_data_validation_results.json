@@ -1,0 +1,1828 @@
+{
+  "success": false,
+  "results": [
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "track_genre"
+        },
+        "meta": {},
+        "id": "80b74fe9-399b-4a96-a9ff-eaec3a425b7e",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "track_genre"
+        },
+        "meta": {},
+        "id": "cb5be388-a4ee-4565-85a9-755d1cf66760",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "track_genre",
+          "type_": "str"
+        },
+        "meta": {},
+        "id": "66f26a8f-93e7-4c7c-9b1a-207ffd4100b1",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "track_genre",
+          "value_set": [
+            "bluegrass",
+            "death-metal",
+            "tango",
+            "opera",
+            "mandopop",
+            "german",
+            "reggae",
+            "synth-pop",
+            "sleep",
+            "singer-songwriter",
+            "chill",
+            "spanish",
+            "swedish",
+            "j-dance",
+            "detroit-techno",
+            "indie-pop",
+            "grunge",
+            "study",
+            "soul",
+            "dubstep",
+            "indie",
+            "afrobeat",
+            "gospel",
+            "minimal-techno",
+            "brazil",
+            "anime",
+            "comedy",
+            "reggaeton",
+            "trance",
+            "punk",
+            "house",
+            "piano",
+            "british",
+            "disco",
+            "malay",
+            "idm",
+            "honky-tonk",
+            "kids",
+            "power-pop",
+            "pop",
+            "deep-house",
+            "forro",
+            "party",
+            "latin",
+            "pop-film",
+            "new-age",
+            "turkish",
+            "latino",
+            "children",
+            "punk-rock",
+            "dub",
+            "acoustic",
+            "salsa",
+            "j-idol",
+            "r-n-b",
+            "electro",
+            "hip-hop",
+            "goth",
+            "alternative",
+            "folk",
+            "industrial",
+            "classical",
+            "garage",
+            "ska",
+            "j-pop",
+            "breakbeat",
+            "electronic",
+            "show-tunes",
+            "indian",
+            "rock",
+            "blues",
+            "metal",
+            "mpb",
+            "chicago-house",
+            "emo",
+            "hard-rock",
+            "french",
+            "sertanejo",
+            "cantopop",
+            "k-pop",
+            "groove",
+            "rockabilly",
+            "drum-and-bass",
+            "disney",
+            "romance",
+            "psych-rock",
+            "hardstyle",
+            "techno",
+            "world-music",
+            "sad",
+            "guitar",
+            "grindcore",
+            "progressive-house",
+            "iranian",
+            "club",
+            "funk",
+            "edm",
+            "ambient",
+            "country",
+            "hardcore",
+            "pagode",
+            "dance",
+            "samba",
+            "rock-n-roll",
+            "trip-hop",
+            "metalcore",
+            "songwriter",
+            "alt-rock",
+            "dancehall",
+            "happy",
+            "heavy-metal",
+            "jazz",
+            "black-metal",
+            "j-rock"
+          ]
+        },
+        "meta": {},
+        "id": "c669b3c5-395f-4903-a85d-ee01b77f755b",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_unique_value_count_to_be_between",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "track_genre",
+          "min_value": 114,
+          "max_value": 114
+        },
+        "meta": {},
+        "id": "4efce6ee-c6b1-4ce2-8ff8-b13cbc3b93d4",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": 114
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "track_id"
+        },
+        "meta": {},
+        "id": "1a268611-172d-4446-a9fd-6b6eca7d4ae9",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "track_id",
+          "type_": "str"
+        },
+        "meta": {},
+        "id": "f2219b46-336b-4566-b9f3-4cb61b6bf6f7",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_value_lengths_to_equal",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "track_id",
+          "value": 22.0
+        },
+        "meta": {},
+        "id": "d98a60c7-6b0d-40f0-98e7-d751a0ef6485",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "artists"
+        },
+        "meta": {},
+        "id": "e01408f5-e9b9-4e09-91fe-f618edcc781f",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 1,
+        "unexpected_percent": 0.0008771929824561403,
+        "partial_unexpected_list": [
+          null
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "artists",
+          "type_": "str"
+        },
+        "meta": {},
+        "id": "4480a247-51f5-409d-82c8-dd230e270269",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "artists",
+          "min_value": 2,
+          "max_value": 512,
+          "strict_min": true,
+          "strict_max": true
+        },
+        "meta": {},
+        "id": "9184aebb-ec49-4d9b-8c6e-dd2fe6ac5104",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 139,
+        "unexpected_percent": 0.12193089413065027,
+        "partial_unexpected_list": [
+          "美波",
+          "美波",
+          "KM",
+          "美波",
+          "美波",
+          "美波",
+          "美波",
+          "IA",
+          "PG",
+          "PG",
+          "2R",
+          "文章",
+          "曲奇",
+          "尤雅",
+          "JW",
+          "尤雅",
+          "麗莎",
+          "JW",
+          "沈雁",
+          "沈雁"
+        ],
+        "missing_count": 1,
+        "missing_percent": 0.0008771929824561403,
+        "unexpected_percent_total": 0.12192982456140351,
+        "unexpected_percent_nonmissing": 0.12193089413065027
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "album_name"
+        },
+        "meta": {},
+        "id": "2fa9d85c-78df-434b-aaf2-ce87c38456b4",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 1,
+        "unexpected_percent": 0.0008771929824561403,
+        "partial_unexpected_list": [
+          null
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "album_name",
+          "type_": "str"
+        },
+        "meta": {},
+        "id": "46f4bd18-699f-4c2f-a7f5-9336d35fb9a6",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "album_name",
+          "min_value": 2,
+          "max_value": 512,
+          "strict_min": true,
+          "strict_max": true
+        },
+        "meta": {},
+        "id": "b4b5f143-7b74-4d74-b454-8cc41c54c5a9",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 728,
+        "unexpected_percent": 0.6386020930008158,
+        "partial_unexpected_list": [
+          "OK",
+          "残響",
+          "残響",
+          "Us",
+          "残響",
+          "聖域",
+          "0",
+          "IX",
+          "Us",
+          "純風",
+          "IX",
+          "E",
+          "化身",
+          "伝言",
+          "V",
+          "55",
+          "4",
+          "55",
+          "LP",
+          "55"
+        ],
+        "missing_count": 1,
+        "missing_percent": 0.0008771929824561403,
+        "unexpected_percent_total": 0.6385964912280702,
+        "unexpected_percent_nonmissing": 0.6386020930008158
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "track_name"
+        },
+        "meta": {},
+        "id": "2e44ed2f-c6a5-4b44-a8e8-7ad51e1e24b9",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 1,
+        "unexpected_percent": 0.0008771929824561403,
+        "partial_unexpected_list": [
+          null
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "track_name",
+          "type_": "str"
+        },
+        "meta": {},
+        "id": "8d907bbe-262e-423c-a2b8-800779efd9e1",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "track_name",
+          "min_value": 2,
+          "max_value": 512,
+          "strict_min": true,
+          "strict_max": true
+        },
+        "meta": {},
+        "id": "12c185a7-fa85-481c-8ead-a393b582ab2b",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 651,
+        "unexpected_percent": 0.5710576408564988,
+        "partial_unexpected_list": [
+          "OK",
+          "接吻",
+          "聖域",
+          "大安",
+          "純風",
+          "56",
+          "Só",
+          "IN",
+          "22",
+          "15",
+          "69",
+          "Go",
+          "Go",
+          "K.",
+          "#3",
+          "K.",
+          "Ró",
+          "I",
+          "Re",
+          "#1"
+        ],
+        "missing_count": 1,
+        "missing_percent": 0.0008771929824561403,
+        "unexpected_percent_total": 0.5710526315789474,
+        "unexpected_percent_nonmissing": 0.5710576408564988
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "popularity"
+        },
+        "meta": {},
+        "id": "68de1503-bae0-4066-ad53-e940bb502cbe",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "popularity",
+          "type_": "int"
+        },
+        "meta": {},
+        "id": "00390c8e-acb2-4403-a832-9adb6e723e02",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "int64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "popularity",
+          "min_value": 0.0,
+          "max_value": 100.0
+        },
+        "meta": {},
+        "id": "14eb795c-d456-4823-9f3a-51886b0d9e16",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "duration_ms"
+        },
+        "meta": {},
+        "id": "01ab9979-f7fb-4cdb-b332-e143c51befac",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "duration_ms",
+          "type_": "int"
+        },
+        "meta": {},
+        "id": "b16be403-1d5d-4460-a366-1b418b5ef74d",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "int64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "duration_ms",
+          "min_value": 0.0,
+          "max_value": 5237760.0,
+          "strict_min": true
+        },
+        "meta": {},
+        "id": "ac81ff36-5dd0-4276-b686-e3f47b96cc90",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 1,
+        "unexpected_percent": 0.0008771929824561403,
+        "partial_unexpected_list": [
+          0
+        ],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0008771929824561403,
+        "unexpected_percent_nonmissing": 0.0008771929824561403
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "explicit"
+        },
+        "meta": {},
+        "id": "5a351ccc-d820-4dc0-aeaa-247bdcda517f",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "explicit",
+          "type_": "bool"
+        },
+        "meta": {},
+        "id": "92a6be5f-2e59-4311-a7a8-6d1749e9cf1d",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "bool"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "danceability"
+        },
+        "meta": {},
+        "id": "d83a8548-8bec-4310-a820-26803f2f69a9",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "danceability",
+          "type_": "float"
+        },
+        "meta": {},
+        "id": "f3c5a15c-9c4a-49b4-8af0-3a155828192a",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "danceability",
+          "min_value": 0.0,
+          "max_value": 1.0
+        },
+        "meta": {},
+        "id": "f06367eb-ed97-47ca-8678-69beb335217e",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "energy"
+        },
+        "meta": {},
+        "id": "153c6f7a-27ac-4cbd-8e7c-fca04afe8acd",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "energy",
+          "type_": "float"
+        },
+        "meta": {},
+        "id": "5680beed-3a7f-4c1a-b0dc-fcd8d6c293fc",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "energy",
+          "min_value": 0.0,
+          "max_value": 1.0
+        },
+        "meta": {},
+        "id": "8d1b8896-68c7-4913-8c97-5fcaa6b8ec74",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "key"
+        },
+        "meta": {},
+        "id": "057d3f41-b0e3-49c8-b4c3-1be08396416a",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "key",
+          "type_": "int"
+        },
+        "meta": {},
+        "id": "c73a4fa2-21cd-4ce3-8423-8461fb8cacdb",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "int64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "key",
+          "min_value": 0.0,
+          "max_value": 11.0
+        },
+        "meta": {},
+        "id": "debfdaf2-ad8c-4f34-9f9e-1546bdb6d8e8",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "loudness"
+        },
+        "meta": {},
+        "id": "72c98e37-90f1-4485-8195-77f28496be34",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "loudness",
+          "type_": "float"
+        },
+        "meta": {},
+        "id": "4af70def-5617-4a03-ba92-7dc9795d506b",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "loudness",
+          "min_value": -45.0,
+          "max_value": 5.0
+        },
+        "meta": {},
+        "id": "61031cd2-7b59-4766-82c1-25e097d55433",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 4,
+        "unexpected_percent": 0.003508771929824561,
+        "partial_unexpected_list": [
+          -46.251,
+          -49.307,
+          -46.591,
+          -49.531
+        ],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.003508771929824561,
+        "unexpected_percent_nonmissing": 0.003508771929824561
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "mode"
+        },
+        "meta": {},
+        "id": "e3fd0850-c311-4f60-b1df-0fd46228a7ca",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "mode",
+          "type_": "float"
+        },
+        "meta": {},
+        "id": "33f9f542-cd29-4b47-b800-fe7853c61dbf",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "int64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "mode",
+          "min_value": 0.0,
+          "max_value": 1.0
+        },
+        "meta": {},
+        "id": "ff04f8b6-4d24-4b8f-bc02-5a7b039995b3",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "speechiness"
+        },
+        "meta": {},
+        "id": "9929fd5e-d425-469d-a450-b437099b5277",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "speechiness",
+          "type_": "float"
+        },
+        "meta": {},
+        "id": "fd5c072e-f018-4dae-b07f-5ad50ace9ec5",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "speechiness",
+          "min_value": 0.0,
+          "max_value": 1.0
+        },
+        "meta": {},
+        "id": "d5f471cb-993c-43be-97a7-e0b1b68e59a2",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "acousticness"
+        },
+        "meta": {},
+        "id": "4e27400b-36f1-48ae-81dc-3f8d22b49573",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "acousticness",
+          "type_": "float"
+        },
+        "meta": {},
+        "id": "f34936fa-157e-44b9-be9c-8135652cfda0",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "acousticness",
+          "min_value": 0.0,
+          "max_value": 1.0
+        },
+        "meta": {},
+        "id": "36f83967-a922-4dd0-908e-4229dfc1515b",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "instrumentalness"
+        },
+        "meta": {},
+        "id": "bc0c2371-20f2-41d7-a7fa-01b68654beeb",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "instrumentalness",
+          "type_": "float"
+        },
+        "meta": {},
+        "id": "74807d44-c11b-419b-8325-c513a4cfc2f7",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "instrumentalness",
+          "min_value": 0.0,
+          "max_value": 1.0
+        },
+        "meta": {},
+        "id": "7332fb69-5db0-4d57-8e52-5e8cbfac2f75",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "liveness"
+        },
+        "meta": {},
+        "id": "e3236a79-d48c-4b87-9936-861c92d61b79",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "liveness",
+          "type_": "float"
+        },
+        "meta": {},
+        "id": "9e811199-12b3-4a0c-858b-10918f3867e7",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "liveness",
+          "min_value": 0.0,
+          "max_value": 1.0
+        },
+        "meta": {},
+        "id": "42000025-00df-404e-ae35-9af2ddc28a9a",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "valence"
+        },
+        "meta": {},
+        "id": "ef5febb2-5801-43a2-9f14-d00bce828fdb",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "valence",
+          "type_": "float"
+        },
+        "meta": {},
+        "id": "6f762087-6a20-498a-ace9-42e73e6e04d1",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "valence",
+          "min_value": 0.0,
+          "max_value": 1.0
+        },
+        "meta": {},
+        "id": "926d250a-e874-4caa-8bfc-83f823ff040e",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "tempo"
+        },
+        "meta": {},
+        "id": "19d610c3-0338-4a7c-85d6-f3bbe95007c7",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "tempo",
+          "type_": "float"
+        },
+        "meta": {},
+        "id": "3dbb7f4d-8cfd-41dc-813c-4abf04ff6d36",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "tempo",
+          "min_value": 0.0,
+          "max_value": 256.0
+        },
+        "meta": {},
+        "id": "89cde884-fbc7-4562-858e-0f233ce8ae0a",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "time_signature"
+        },
+        "meta": {},
+        "id": "b08685bb-aa1f-4e07-8610-c98f588fe835",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "time_signature",
+          "type_": "int"
+        },
+        "meta": {},
+        "id": "a728f0cc-a8ce-4791-8aee-86fc603856fd",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": "int64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "music_data_source-music_data_asset",
+          "column": "time_signature",
+          "min_value": 0.0,
+          "max_value": 5.0
+        },
+        "meta": {},
+        "id": "36128c9c-883e-4309-8bf8-582c39e3908a",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    }
+  ],
+  "suite_name": "music_data_expectations",
+  "suite_parameters": {},
+  "statistics": {
+    "evaluated_expectations": 61,
+    "successful_expectations": 52,
+    "unsuccessful_expectations": 9,
+    "success_percent": 85.24590163934425
+  },
+  "meta": {
+    "great_expectations_version": "1.13.0",
+    "expectation_suite_name": "music_data_expectations",
+    "run_id": {
+      "run_name": null,
+      "run_time": "2026-03-02T23:57:09.871788+03:00"
+    },
+    "batch_spec": {
+      "batch_data": "PandasDataFrame"
+    },
+    "batch_markers": {
+      "ge_load_time": "20260302T205709.692038Z",
+      "pandas_data_fingerprint": "3cfc584c5691d6c49d5ca4dbd9a4c6de"
+    },
+    "active_batch_definition": {
+      "datasource_name": "music_data_source",
+      "data_connector_name": "fluent",
+      "data_asset_name": "music_data_asset",
+      "batch_identifiers": {
+        "dataframe": "<DATAFRAME>"
+      }
+    },
+    "validation_time": "20260302T205709.871788Z",
+    "checkpoint_name": null
+  },
+  "id": null
+}
