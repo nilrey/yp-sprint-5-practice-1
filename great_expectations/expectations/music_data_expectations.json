@@ -1,7 +1,7 @@
 {
   "expectations": [
     {
-      "id": "61d5cb46-f7c9-4f48-8a75-6717e5bcbfce",
+      "id": "c44864a0-658a-4fca-916d-7ffc159b8d52",
       "kwargs": {
         "column": "track_id"
       },
@@ -10,7 +10,7 @@
       "type": "expect_column_to_exist"
     },
     {
-      "id": "c5871ef7-75cb-4670-b277-b0a2ac86c9e1",
+      "id": "9e11c106-56de-4584-b692-c09d246a6221",
       "kwargs": {
         "column": "artists"
       },
@@ -19,7 +19,7 @@
       "type": "expect_column_to_exist"
     },
     {
-      "id": "6f6195de-7b57-4f8f-bc89-76b8ebe8ed11",
+      "id": "16bcef1b-78c7-4db9-a597-0efe476b52fd",
       "kwargs": {
         "column": "album_name"
       },
@@ -28,7 +28,7 @@
       "type": "expect_column_to_exist"
     },
     {
-      "id": "dc266983-0c2f-42d0-b8b8-ced9ffb1b739",
+      "id": "aa9fea20-265d-45ae-8f20-976c28c0349a",
       "kwargs": {
         "column": "track_name"
       },
@@ -37,7 +37,7 @@
       "type": "expect_column_to_exist"
     },
     {
-      "id": "52f6cb6b-8d9d-439e-81c7-8764a8a08f2f",
+      "id": "3d3724a8-01f7-4372-a4f3-fce287754442",
       "kwargs": {
         "column": "popularity"
       },
@@ -46,7 +46,7 @@
       "type": "expect_column_to_exist"
     },
     {
-      "id": "0477ecf0-fb08-418a-a483-5afa53d4ad81",
+      "id": "ccb4e122-7b9c-43d5-b3b4-9243402fe7c5",
       "kwargs": {
         "column": "duration_ms"
       },
@@ -55,7 +55,7 @@
       "type": "expect_column_to_exist"
     },
     {
-      "id": "d620edbd-f79f-4a5f-ac2e-c0a6af5caf2d",
+      "id": "66564d78-ad97-44c6-b31b-78fe11ce72e3",
       "kwargs": {
         "column": "explicit"
       },
@@ -64,7 +64,7 @@
       "type": "expect_column_to_exist"
     },
     {
-      "id": "170f16e5-f8fe-40c4-9f6c-8d3870cd7048",
+      "id": "66350dbd-113a-4a18-9f41-983680fa03bb",
       "kwargs": {
         "column": "danceability"
       },
@@ -73,7 +73,7 @@
       "type": "expect_column_to_exist"
     },
     {
-      "id": "2c5a5f29-46f5-4ed2-8dc1-b697c1c93dca",
+      "id": "fa4c822e-5b75-46cc-8d47-1196bfe2eb39",
       "kwargs": {
         "column": "energy"
       },
@@ -82,7 +82,7 @@
       "type": "expect_column_to_exist"
     },
     {
-      "id": "747a3ed1-8ad9-4674-8ebc-14248a246734",
+      "id": "94716e45-6e14-4cf2-87c4-ecb401ea68dc",
       "kwargs": {
         "column": "key"
       },
@@ -91,7 +91,7 @@
       "type": "expect_column_to_exist"
     },
     {
-      "id": "a670f7d3-e12b-4d39-a330-e0441f54f7c8",
+      "id": "9111f43f-facf-4003-a600-a8bc4b10f4bb",
       "kwargs": {
         "column": "loudness"
       },
@@ -100,7 +100,7 @@
       "type": "expect_column_to_exist"
     },
     {
-      "id": "09268a50-bceb-453a-a50c-8450d45119d3",
+      "id": "d84fbb87-5a61-4d3e-bfc2-2b3e34902e36",
       "kwargs": {
         "column": "mode"
       },
@@ -109,7 +109,7 @@
       "type": "expect_column_to_exist"
     },
     {
-      "id": "6b768e46-956e-4b02-a6da-9cdb56d69158",
+      "id": "306c8da0-7e84-4148-9403-fbc7918ee824",
       "kwargs": {
         "column": "speechiness"
       },
@@ -118,7 +118,7 @@
       "type": "expect_column_to_exist"
     },
     {
-      "id": "1aeea6d0-2ddc-4ba1-9dad-a7475669ee54",
+      "id": "4a392414-c324-4bdd-9b0b-43ce9c08ddfe",
       "kwargs": {
         "column": "acousticness"
       },
@@ -127,7 +127,7 @@
       "type": "expect_column_to_exist"
     },
     {
-      "id": "2708c195-42f1-4655-b060-058eccc8f909",
+      "id": "595d9955-cbfd-47f1-b387-704885cbeea4",
       "kwargs": {
         "column": "instrumentalness"
       },
@@ -136,7 +136,7 @@
       "type": "expect_column_to_exist"
     },
     {
-      "id": "73488771-0000-4bfd-9f54-5434e8c23044",
+      "id": "c2b537ed-1584-4ad3-8989-f41806cd3f55",
       "kwargs": {
         "column": "liveness"
       },
@@ -145,7 +145,7 @@
       "type": "expect_column_to_exist"
     },
     {
-      "id": "eaa7e80b-669b-4fef-9216-bcff3a12441f",
+      "id": "e8b66bd3-b28c-489b-82b3-8223157290fa",
       "kwargs": {
         "column": "valence"
       },
@@ -154,7 +154,7 @@
       "type": "expect_column_to_exist"
     },
     {
-      "id": "43fd06d5-bf7d-4ae1-8ccc-f47d797cd613",
+      "id": "05e89098-9229-43a8-9607-fb8db1183a0a",
       "kwargs": {
         "column": "tempo"
       },
@@ -163,7 +163,7 @@
       "type": "expect_column_to_exist"
     },
     {
-      "id": "4e746861-3406-40a3-a1d1-cd5c7f938026",
+      "id": "a5b489fc-fe19-4676-855b-2406c13c5088",
       "kwargs": {
         "column": "time_signature"
       },
@@ -172,7 +172,7 @@
       "type": "expect_column_to_exist"
     },
     {
-      "id": "13e130a6-55fd-4128-b4a8-6c451e3697ff",
+      "id": "27d67051-ff47-4694-9607-5f90030fc59e",
       "kwargs": {
         "column": "track_genre"
       },
@@ -181,7 +181,7 @@
       "type": "expect_column_to_exist"
     },
     {
-      "id": "6c5b6a2d-8674-4a2a-b217-2cbe6e0ad6d8",
+      "id": "07d91ecf-8654-4332-ab3b-43d9d2cc5779",
       "kwargs": {
         "column": "track_id"
       },
@@ -190,7 +190,7 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
-      "id": "f195807b-febb-4cbf-9c73-d497bcc5e81e",
+      "id": "81d8de75-5def-48d7-b40f-717413d72af6",
       "kwargs": {
         "column": "artists"
       },
@@ -199,7 +199,7 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
-      "id": "ccd9f23b-2f86-496c-a65a-9d063808255e",
+      "id": "f2a89da8-8356-44ab-b9a3-3532edad99f2",
       "kwargs": {
         "column": "album_name"
       },
@@ -208,7 +208,7 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
-      "id": "3c7a6db1-db92-48a5-b04f-9363a8e6376b",
+      "id": "6a209e5a-ca21-4e87-982c-25a280be93ad",
       "kwargs": {
         "column": "track_name"
       },
@@ -217,7 +217,7 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
-      "id": "fad809cb-e0eb-4d3c-9814-74fe76922465",
+      "id": "342c5d84-6560-4797-b5c8-7c057b6d49e5",
       "kwargs": {
         "column": "popularity"
       },
@@ -226,7 +226,7 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
-      "id": "ff6f001a-0559-4511-b49a-5f594e1baef5",
+      "id": "4e77ec6e-a0e5-4855-90d6-6775d7797d5a",
       "kwargs": {
         "column": "duration_ms"
       },
@@ -235,7 +235,7 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
-      "id": "862ed805-2cc4-4e02-97cd-8a9eca71572e",
+      "id": "fcb32263-a050-4d97-9622-d47ec7cd1229",
       "kwargs": {
         "column": "explicit"
       },
@@ -244,7 +244,7 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
-      "id": "e6c697c1-ee54-464f-9171-15da6723e586",
+      "id": "e83f3389-ae9b-4267-9e1f-e2f38c9bfcf3",
       "kwargs": {
         "column": "danceability"
       },
@@ -253,7 +253,7 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
-      "id": "83d60952-f552-4de9-b910-2f78a7a8aeb6",
+      "id": "4a309f8f-311f-46c3-8f5a-35f136a320ab",
       "kwargs": {
         "column": "energy"
       },
@@ -262,7 +262,7 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
-      "id": "ae537a9e-5bdc-4eed-bf6b-ed5d99d5cf0c",
+      "id": "cbe61268-5a60-4574-83b4-1314186cfaa9",
       "kwargs": {
         "column": "key"
       },
@@ -271,7 +271,7 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
-      "id": "3a0ea062-c1ee-4b7e-8222-3eb44b47517b",
+      "id": "3dc25bd1-cd0d-47bc-bac9-070b3c0b22cf",
       "kwargs": {
         "column": "loudness"
       },
@@ -280,7 +280,7 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
-      "id": "639f04e6-a057-47ac-ac09-094d6a9ffef0",
+      "id": "a727cf77-4ec8-4bea-9183-90e2cdc4bea1",
       "kwargs": {
         "column": "mode"
       },
@@ -289,7 +289,7 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
-      "id": "fee1bb5b-5881-4f89-843c-374abee0f6af",
+      "id": "a2e15ad5-7aaa-4b7f-bc8d-96dadbabc23e",
       "kwargs": {
         "column": "speechiness"
       },
@@ -298,7 +298,7 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
-      "id": "4bf78148-f745-4dc3-af4c-59b178cb6a4a",
+      "id": "b087bf9c-6c93-4d9b-8eb8-8832b33803b1",
       "kwargs": {
         "column": "acousticness"
       },
@@ -307,7 +307,7 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
-      "id": "6b46f4b8-43d7-491e-b503-8fc1b6443286",
+      "id": "0f941368-696b-4bf3-9835-433532bb034f",
       "kwargs": {
         "column": "instrumentalness"
       },
@@ -316,7 +316,7 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
-      "id": "513ee7a1-87ab-41d0-b329-6bfda3bc602c",
+      "id": "7e56eb10-7f2f-4591-863d-aec09dc41959",
       "kwargs": {
         "column": "liveness"
       },
@@ -325,7 +325,7 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
-      "id": "f650ba3a-15f4-4be1-8405-dac05e19f03f",
+      "id": "58bd034d-8bba-4359-be8c-3656c6bd3505",
       "kwargs": {
         "column": "valence"
       },
@@ -334,7 +334,7 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
-      "id": "6b977c96-71d8-478d-810d-23303f568596",
+      "id": "8d3df9ea-001a-43c6-b1a6-e07b6314b5a8",
       "kwargs": {
         "column": "tempo"
       },
@@ -343,7 +343,7 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
-      "id": "fa84bda9-7eba-4257-8d6f-45f97a4c0393",
+      "id": "d7f1a496-6623-4bb9-a85c-b0a996f3e47a",
       "kwargs": {
         "column": "time_signature"
       },
@@ -352,7 +352,7 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
-      "id": "b8da3516-0bde-4106-9976-cda7cc8961d6",
+      "id": "654a4ad4-a330-43eb-ba52-009482b1b110",
       "kwargs": {
         "column": "track_genre"
       },
@@ -361,7 +361,7 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
-      "id": "6d16b86f-ade6-412f-b8db-eeaa5dffb0f5",
+      "id": "d145d9ac-71f9-4509-9fca-cfdeaaef3f1d",
       "kwargs": {
         "column": "track_id",
         "type_": "str"
@@ -371,7 +371,7 @@
       "type": "expect_column_values_to_be_of_type"
     },
     {
-      "id": "f421fedb-5fe3-44c6-ad87-3bc594d4cf7a",
+      "id": "486c009d-8eeb-4a38-b2f8-c1cf012bb191",
       "kwargs": {
         "column": "track_id",
         "value": 22.0
@@ -379,529 +379,9 @@
       "meta": {},
       "severity": "critical",
       "type": "expect_column_value_lengths_to_equal"
-    },
-    {
-      "id": "b267342f-9000-4233-a3ef-05c081c3a941",
-      "kwargs": {
-        "column": "artists",
-        "type_": "str"
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_of_type"
-    },
-    {
-      "id": "4923afd1-f4d9-4e47-9ed8-970ada9d23c2",
-      "kwargs": {
-        "column": "artists",
-        "max_value": 512,
-        "min_value": 2,
-        "strict_max": true,
-        "strict_min": true
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_value_lengths_to_be_between"
-    },
-    {
-      "id": "d0474c9c-7bde-4be1-a6d3-b228d1c84019",
-      "kwargs": {
-        "column": "album_name",
-        "type_": "str"
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_of_type"
-    },
-    {
-      "id": "b46de2c0-dbbc-4d19-8604-fcba27757bc3",
-      "kwargs": {
-        "column": "album_name",
-        "max_value": 512,
-        "min_value": 2,
-        "strict_max": true,
-        "strict_min": true
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_value_lengths_to_be_between"
-    },
-    {
-      "id": "afc576f3-6b45-4a78-8ac1-3682b9bd7dc2",
-      "kwargs": {
-        "column": "track_name",
-        "type_": "str"
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_of_type"
-    },
-    {
-      "id": "982c6c90-3749-43f5-afcf-ac4ac2f4adef",
-      "kwargs": {
-        "column": "track_name",
-        "max_value": 512,
-        "min_value": 2,
-        "strict_max": true,
-        "strict_min": true
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_value_lengths_to_be_between"
-    },
-    {
-      "id": "a67b7b18-9e89-45a2-b0e9-62f84dc0aa09",
-      "kwargs": {
-        "column": "popularity",
-        "type_": "int"
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_of_type"
-    },
-    {
-      "id": "a317739a-1d03-4072-a523-ab1d8a73efd5",
-      "kwargs": {
-        "column": "popularity",
-        "max_value": 100.0,
-        "min_value": 0.0
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_between"
-    },
-    {
-      "id": "2299a597-3bf1-4a56-a540-fa32a0d39e5d",
-      "kwargs": {
-        "column": "duration_ms",
-        "type_": "int"
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_of_type"
-    },
-    {
-      "id": "7582c1df-865b-4136-8e3f-eebbcc7b877b",
-      "kwargs": {
-        "column": "duration_ms",
-        "max_value": 5237760.0,
-        "min_value": 0.0,
-        "strict_min": true
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_between"
-    },
-    {
-      "id": "8500a454-00f6-449d-b042-94e7d15d7099",
-      "kwargs": {
-        "column": "explicit",
-        "type_": "bool"
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_of_type"
-    },
-    {
-      "id": "09ce63ae-5933-418e-8750-6eaf9144cd67",
-      "kwargs": {
-        "column": "danceability",
-        "type_": "float"
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_of_type"
-    },
-    {
-      "id": "e4046902-3233-4dae-9509-21165b845584",
-      "kwargs": {
-        "column": "danceability",
-        "max_value": 1.0,
-        "min_value": 0.0
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_between"
-    },
-    {
-      "id": "464cfb69-e005-404a-bfe6-8f11ffc7305c",
-      "kwargs": {
-        "column": "energy",
-        "type_": "float"
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_of_type"
-    },
-    {
-      "id": "6b069f10-e01c-4867-af52-fda5a5eab08e",
-      "kwargs": {
-        "column": "energy",
-        "max_value": 1.0,
-        "min_value": 0.0
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_between"
-    },
-    {
-      "id": "d63a1b27-c91e-45ec-ba97-ab69b02037ac",
-      "kwargs": {
-        "column": "key",
-        "type_": "int"
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_of_type"
-    },
-    {
-      "id": "662c722b-9bd5-495e-a2f3-15ec8cb1a075",
-      "kwargs": {
-        "column": "key",
-        "max_value": 11.0,
-        "min_value": 0.0
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_between"
-    },
-    {
-      "id": "21bc7787-bb3e-47cb-a8a4-d3f368b4feb1",
-      "kwargs": {
-        "column": "loudness",
-        "type_": "float"
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_of_type"
-    },
-    {
-      "id": "414f377a-8d66-46af-8c19-341b07d3276a",
-      "kwargs": {
-        "column": "loudness",
-        "max_value": 5.0,
-        "min_value": -45.0
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_between"
-    },
-    {
-      "id": "62c85136-7efb-41a8-a701-f05ac08528ee",
-      "kwargs": {
-        "column": "mode",
-        "type_": "float"
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_of_type"
-    },
-    {
-      "id": "6c472f14-54e1-4acf-bc49-1164abfdbd6b",
-      "kwargs": {
-        "column": "mode",
-        "max_value": 1.0,
-        "min_value": 0.0
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_between"
-    },
-    {
-      "id": "83414bf7-f7f4-4b38-a1e1-5f721f1f05a0",
-      "kwargs": {
-        "column": "speechiness",
-        "type_": "float"
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_of_type"
-    },
-    {
-      "id": "be3b299a-1ecd-4ebc-b2b7-3d9c91d8f23b",
-      "kwargs": {
-        "column": "speechiness",
-        "max_value": 1.0,
-        "min_value": 0.0
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_between"
-    },
-    {
-      "id": "998ef4f5-eb8a-444e-b2fd-4035cfd29245",
-      "kwargs": {
-        "column": "acousticness",
-        "type_": "float"
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_of_type"
-    },
-    {
-      "id": "703a55d1-3077-4d8e-ac1d-22c8a2dae490",
-      "kwargs": {
-        "column": "acousticness",
-        "max_value": 1.0,
-        "min_value": 0.0
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_between"
-    },
-    {
-      "id": "e3bd3c0a-275f-46a9-8c1c-62ac99df0ebe",
-      "kwargs": {
-        "column": "instrumentalness",
-        "type_": "float"
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_of_type"
-    },
-    {
-      "id": "e308321b-8a89-4c4d-bb5b-f6a2832615bc",
-      "kwargs": {
-        "column": "instrumentalness",
-        "max_value": 1.0,
-        "min_value": 0.0
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_between"
-    },
-    {
-      "id": "bd917306-e046-4f16-b23c-570f80fcd0ed",
-      "kwargs": {
-        "column": "liveness",
-        "type_": "float"
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_of_type"
-    },
-    {
-      "id": "523aee95-ebec-42c3-b1e6-56dbb116e028",
-      "kwargs": {
-        "column": "liveness",
-        "max_value": 1.0,
-        "min_value": 0.0
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_between"
-    },
-    {
-      "id": "c927e163-73a8-40e8-abcd-af11883ff1f0",
-      "kwargs": {
-        "column": "valence",
-        "type_": "float"
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_of_type"
-    },
-    {
-      "id": "e365266c-892e-4792-9d9d-9d4d5c3175fa",
-      "kwargs": {
-        "column": "valence",
-        "max_value": 1.0,
-        "min_value": 0.0
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_between"
-    },
-    {
-      "id": "a423d4d7-8dc7-4ed2-83ef-c123e9afb683",
-      "kwargs": {
-        "column": "tempo",
-        "type_": "float"
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_of_type"
-    },
-    {
-      "id": "840aeac0-b351-40cb-bab0-0d6b19ec745d",
-      "kwargs": {
-        "column": "tempo",
-        "max_value": 256.0,
-        "min_value": 0.0
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_between"
-    },
-    {
-      "id": "9a62b437-0c68-4cad-974f-e71baaa95f7e",
-      "kwargs": {
-        "column": "time_signature",
-        "type_": "int"
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_of_type"
-    },
-    {
-      "id": "5df2d03b-8575-4a9b-aa25-93b98b26e948",
-      "kwargs": {
-        "column": "time_signature",
-        "max_value": 5.0,
-        "min_value": 0.0
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_between"
-    },
-    {
-      "id": "ca475c1b-9c3a-473f-b84d-e5a9fc93191a",
-      "kwargs": {
-        "column": "track_genre",
-        "type_": "str"
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_of_type"
-    },
-    {
-      "id": "e6c0d2b6-7502-4319-ab65-5e4c9e5ca081",
-      "kwargs": {
-        "column": "track_genre",
-        "value_set": [
-          "mpb",
-          "ska",
-          "edm",
-          "brazil",
-          "happy",
-          "rock",
-          "techno",
-          "songwriter",
-          "hardstyle",
-          "chill",
-          "sertanejo",
-          "rockabilly",
-          "punk-rock",
-          "funk",
-          "french",
-          "alt-rock",
-          "indie",
-          "breakbeat",
-          "death-metal",
-          "acoustic",
-          "folk",
-          "british",
-          "bluegrass",
-          "j-idol",
-          "jazz",
-          "indie-pop",
-          "singer-songwriter",
-          "turkish",
-          "metal",
-          "latin",
-          "cantopop",
-          "deep-house",
-          "emo",
-          "forro",
-          "progressive-house",
-          "disney",
-          "reggaeton",
-          "j-pop",
-          "drum-and-bass",
-          "malay",
-          "r-n-b",
-          "salsa",
-          "heavy-metal",
-          "power-pop",
-          "j-rock",
-          "samba",
-          "house",
-          "show-tunes",
-          "classical",
-          "ambient",
-          "swedish",
-          "club",
-          "groove",
-          "opera",
-          "spanish",
-          "romance",
-          "dub",
-          "alternative",
-          "piano",
-          "kids",
-          "country",
-          "latino",
-          "minimal-techno",
-          "comedy",
-          "chicago-house",
-          "dance",
-          "trance",
-          "trip-hop",
-          "hip-hop",
-          "detroit-techno",
-          "afrobeat",
-          "indian",
-          "reggae",
-          "study",
-          "electronic",
-          "sleep",
-          "party",
-          "grindcore",
-          "anime",
-          "metalcore",
-          "goth",
-          "pop-film",
-          "garage",
-          "hardcore",
-          "dancehall",
-          "mandopop",
-          "children",
-          "hard-rock",
-          "iranian",
-          "k-pop",
-          "sad",
-          "j-dance",
-          "disco",
-          "industrial",
-          "black-metal",
-          "dubstep",
-          "idm",
-          "psych-rock",
-          "grunge",
-          "tango",
-          "german",
-          "world-music",
-          "rock-n-roll",
-          "pop",
-          "gospel",
-          "honky-tonk",
-          "soul",
-          "synth-pop",
-          "punk",
-          "electro",
-          "guitar",
-          "new-age",
-          "pagode",
-          "blues"
-        ]
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_in_set"
-    },
-    {
-      "id": "5682f719-2c98-46f4-912d-4be9d9b0290a",
-      "kwargs": {
-        "column": "track_genre",
-        "max_value": 114,
-        "min_value": 114
-      },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_unique_value_count_to_be_between"
     }
   ],
-  "id": "1572b031-631d-4fa7-9550-5a6e9fd69064",
+  "id": "a23bbe2b-767c-4134-831b-1f96479cca49",
   "meta": {
     "great_expectations_version": "1.13.0"
   },

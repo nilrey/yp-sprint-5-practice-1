@@ -10,7 +10,7 @@
           "column": "track_genre"
         },
         "meta": {},
-        "id": "eecccccb-6eca-4f27-b80b-81e1f02bc0e4",
+        "id": "51ea44f9-c4b3-4450-abb2-dc282d79417c",
         "severity": "critical"
       },
       "result": {},
@@ -30,7 +30,7 @@
           "column": "track_genre"
         },
         "meta": {},
-        "id": "f0841c74-5cb2-4e55-b3f8-47390cb3da7f",
+        "id": "2f78d821-3cf4-448b-86c7-3a6e3f0bdcfd",
         "severity": "critical"
       },
       "result": {
@@ -56,7 +56,7 @@
           "type_": "str"
         },
         "meta": {},
-        "id": "f4632479-6cc2-443f-a12d-912b0fe5d12f",
+        "id": "6e0e390d-8d4f-44bc-bab9-6ceffe3b430d",
         "severity": "critical"
       },
       "result": {
@@ -77,124 +77,124 @@
           "batch_id": "music_data_source-music_data_asset",
           "column": "track_genre",
           "value_set": [
-            "emo",
-            "mpb",
-            "rock-n-roll",
-            "opera",
-            "synth-pop",
-            "progressive-house",
-            "sad",
-            "goth",
-            "indian",
-            "rock",
-            "punk",
-            "edm",
-            "psych-rock",
-            "dub",
-            "study",
-            "hip-hop",
-            "forro",
-            "piano",
-            "electronic",
-            "spanish",
-            "folk",
-            "alt-rock",
-            "new-age",
-            "bluegrass",
-            "sertanejo",
-            "punk-rock",
-            "show-tunes",
-            "singer-songwriter",
-            "heavy-metal",
-            "party",
-            "r-n-b",
-            "grunge",
-            "jazz",
-            "latin",
-            "funk",
-            "black-metal",
-            "ska",
-            "indie",
-            "grindcore",
-            "honky-tonk",
-            "malay",
-            "kids",
-            "french",
-            "happy",
-            "chicago-house",
-            "k-pop",
-            "alternative",
-            "techno",
-            "latino",
-            "minimal-techno",
-            "acoustic",
-            "indie-pop",
-            "blues",
-            "metal",
-            "house",
-            "reggaeton",
-            "iranian",
-            "brazil",
-            "trip-hop",
-            "dancehall",
-            "rockabilly",
-            "trance",
-            "garage",
-            "j-dance",
-            "ambient",
-            "comedy",
-            "disco",
-            "songwriter",
-            "romance",
-            "country",
-            "cantopop",
-            "drum-and-bass",
-            "j-rock",
-            "industrial",
-            "sleep",
-            "power-pop",
-            "pop",
-            "hardstyle",
-            "world-music",
-            "hardcore",
-            "dubstep",
-            "metalcore",
-            "german",
-            "detroit-techno",
-            "j-idol",
-            "groove",
-            "idm",
-            "electro",
-            "reggae",
-            "children",
-            "afrobeat",
-            "breakbeat",
-            "club",
-            "mandopop",
-            "guitar",
-            "dance",
-            "turkish",
-            "gospel",
-            "soul",
-            "anime",
-            "tango",
-            "hard-rock",
-            "pop-film",
             "samba",
-            "chill",
-            "pagode",
-            "death-metal",
-            "deep-house",
-            "salsa",
-            "classical",
+            "reggae",
+            "industrial",
+            "folk",
+            "rock",
+            "study",
+            "afrobeat",
+            "black-metal",
+            "synth-pop",
+            "club",
+            "hip-hop",
+            "metalcore",
+            "dub",
+            "detroit-techno",
+            "goth",
+            "alt-rock",
+            "guitar",
+            "edm",
+            "latino",
+            "french",
+            "indie",
+            "indie-pop",
+            "idm",
+            "psych-rock",
+            "grindcore",
+            "mpb",
+            "spanish",
             "disney",
-            "swedish",
+            "happy",
+            "sad",
+            "pop-film",
+            "dance",
+            "anime",
+            "j-idol",
+            "progressive-house",
+            "world-music",
+            "bluegrass",
+            "children",
+            "rockabilly",
+            "honky-tonk",
+            "dancehall",
+            "k-pop",
+            "tango",
+            "comedy",
+            "show-tunes",
+            "hardcore",
+            "punk",
+            "indian",
+            "disco",
+            "ska",
+            "chill",
+            "heavy-metal",
+            "piano",
+            "songwriter",
+            "punk-rock",
+            "r-n-b",
             "j-pop",
-            "british"
+            "grunge",
+            "pagode",
+            "pop",
+            "trance",
+            "trip-hop",
+            "acoustic",
+            "techno",
+            "forro",
+            "jazz",
+            "electronic",
+            "romance",
+            "hard-rock",
+            "malay",
+            "ambient",
+            "opera",
+            "death-metal",
+            "kids",
+            "sertanejo",
+            "brazil",
+            "country",
+            "groove",
+            "reggaeton",
+            "house",
+            "chicago-house",
+            "salsa",
+            "garage",
+            "deep-house",
+            "british",
+            "gospel",
+            "iranian",
+            "minimal-techno",
+            "breakbeat",
+            "mandopop",
+            "funk",
+            "dubstep",
+            "j-dance",
+            "german",
+            "soul",
+            "latin",
+            "singer-songwriter",
+            "electro",
+            "j-rock",
+            "power-pop",
+            "drum-and-bass",
+            "classical",
+            "hardstyle",
+            "blues",
+            "rock-n-roll",
+            "cantopop",
+            "alternative",
+            "sleep",
+            "new-age",
+            "turkish",
+            "swedish",
+            "emo",
+            "metal",
+            "party"
           ]
         },
         "meta": {},
-        "id": "41515c2d-d2ff-4280-80dc-ea01060b666b",
+        "id": "104b6b3d-bfd5-499b-990b-ed8812d1113e",
         "severity": "critical"
       },
       "result": {
@@ -225,7 +225,7 @@
           "max_value": 114
         },
         "meta": {},
-        "id": "54b5230b-1763-40eb-9f02-9a67b3dcbd65",
+        "id": "f796f260-0691-4e19-b8c5-e6d0b1a5dea6",
         "severity": "critical"
       },
       "result": {
@@ -247,7 +247,7 @@
           "column": "track_id"
         },
         "meta": {},
-        "id": "351241a6-bef6-4785-aaa7-ae0527b770d2",
+        "id": "4e3ffd24-9049-437a-99e1-592f67a6f0b6",
         "severity": "critical"
       },
       "result": {
@@ -273,7 +273,7 @@
           "type_": "str"
         },
         "meta": {},
-        "id": "394b3d53-1f07-43a7-b632-2d26c4635557",
+        "id": "ddf70dd9-137c-4f5c-bcb3-edf7dfccc847",
         "severity": "critical"
       },
       "result": {
@@ -296,7 +296,7 @@
           "value": 22.0
         },
         "meta": {},
-        "id": "98adcc6d-21fa-412b-9c7a-1c8c488319f6",
+        "id": "b11c52b4-8350-461d-b2da-9e708ee1cdbb",
         "severity": "critical"
       },
       "result": {
@@ -325,7 +325,7 @@
           "column": "artists"
         },
         "meta": {},
-        "id": "69e5bed0-5a20-402b-88ea-b16da7649a51",
+        "id": "dfd99843-71a6-4f22-b674-c05eca09c4df",
         "severity": "critical"
       },
       "result": {
@@ -353,7 +353,7 @@
           "type_": "str"
         },
         "meta": {},
-        "id": "d150513c-7078-4bde-a731-da9583b8848b",
+        "id": "f1f58724-3f15-4e17-89b9-ebddc2c1b3fd",
         "severity": "critical"
       },
       "result": {
@@ -379,7 +379,7 @@
           "strict_max": true
         },
         "meta": {},
-        "id": "967b5014-ca62-43fa-9eb2-86f5519c4c07",
+        "id": "66add641-1ed4-4315-a814-aa10beea7ff4",
         "severity": "critical"
       },
       "result": {
@@ -429,7 +429,7 @@
           "column": "album_name"
         },
         "meta": {},
-        "id": "e0cc4ccf-2e96-45ce-9687-5b5dae4f4add",
+        "id": "1e007a0d-4f81-4b2c-9189-ed3e2a856b54",
         "severity": "critical"
       },
       "result": {
@@ -457,7 +457,7 @@
           "type_": "str"
         },
         "meta": {},
-        "id": "5764cb29-9348-49cb-823b-c6e073889930",
+        "id": "fe97ef18-bbf4-4c84-b94d-acb19b783945",
         "severity": "critical"
       },
       "result": {
@@ -483,7 +483,7 @@
           "strict_max": true
         },
         "meta": {},
-        "id": "51f680b8-dd7f-42e5-91d4-c9e15bf961e4",
+        "id": "99dc72a3-c140-41e5-a20e-d44976408464",
         "severity": "critical"
       },
       "result": {
@@ -533,7 +533,7 @@
           "column": "track_name"
         },
         "meta": {},
-        "id": "55cc1387-24e2-482a-bfcb-9a1e43852cfa",
+        "id": "863b1835-3fb7-48d6-9868-08dd5ecfbed8",
         "severity": "critical"
       },
       "result": {
@@ -561,7 +561,7 @@
           "type_": "str"
         },
         "meta": {},
-        "id": "12118357-f26e-441a-aba7-29851bdafc5c",
+        "id": "d50b2cb1-5821-4c58-8afe-08b705dd2898",
         "severity": "critical"
       },
       "result": {
@@ -587,7 +587,7 @@
           "strict_max": true
         },
         "meta": {},
-        "id": "0fb53cf4-043c-470d-a279-58581aa3d60e",
+        "id": "3cc32902-9e4e-41c9-84d2-3a43d5ca0040",
         "severity": "critical"
       },
       "result": {
@@ -637,7 +637,7 @@
           "column": "popularity"
         },
         "meta": {},
-        "id": "39cdcdfc-3508-43d1-bfb3-48ae14f2254c",
+        "id": "052e8b5a-7f86-4268-a789-bcb73d76f83b",
         "severity": "critical"
       },
       "result": {
@@ -663,7 +663,7 @@
           "type_": "int"
         },
         "meta": {},
-        "id": "e0cab0ea-6f69-4b4a-9530-0b936fffa716",
+        "id": "34ee65a3-2884-4816-a72b-37d8ca22a420",
         "severity": "critical"
       },
       "result": {
@@ -687,7 +687,7 @@
           "max_value": 100.0
         },
         "meta": {},
-        "id": "948a76dd-0fe1-4f2a-8284-b770298a0f5e",
+        "id": "7429de88-3f72-4c6a-9ef7-ea69a6a42d74",
         "severity": "critical"
       },
       "result": {
@@ -716,7 +716,7 @@
           "column": "duration_ms"
         },
         "meta": {},
-        "id": "7a2f2837-4d94-49ef-b14d-c396608e451d",
+        "id": "bfdd1cf4-e5fa-4469-ab61-0beca0252e59",
         "severity": "critical"
       },
       "result": {
@@ -742,7 +742,7 @@
           "type_": "int"
         },
         "meta": {},
-        "id": "8f212e04-1a85-4303-84e8-73e39ba09608",
+        "id": "865d063c-7366-40ea-9617-dec89559c555",
         "severity": "critical"
       },
       "result": {
@@ -767,7 +767,7 @@
           "strict_min": true
         },
         "meta": {},
-        "id": "41eead91-5d4d-4846-95dd-2424c1db0084",
+        "id": "b37949e9-d667-48d4-af59-830e7e9ed311",
         "severity": "critical"
       },
       "result": {
@@ -798,7 +798,7 @@
           "column": "explicit"
         },
         "meta": {},
-        "id": "3d7f34cf-08ed-4736-9b29-26346ddfeb38",
+        "id": "12990316-ee9d-4f68-afec-3abda41df284",
         "severity": "critical"
       },
       "result": {
@@ -824,7 +824,7 @@
           "type_": "bool"
         },
         "meta": {},
-        "id": "d2e90cb2-d0ad-4005-9875-d23e2fabbaf6",
+        "id": "a9249087-9875-4819-8ac4-44cade29623b",
         "severity": "critical"
       },
       "result": {
@@ -846,7 +846,7 @@
           "column": "danceability"
         },
         "meta": {},
-        "id": "9cf96c1c-2e63-4f6a-a2a7-c698f31314a4",
+        "id": "da9d37d2-f1ab-49e2-ac61-bc0fe4779dd6",
         "severity": "critical"
       },
       "result": {
@@ -872,7 +872,7 @@
           "type_": "float"
         },
         "meta": {},
-        "id": "3fe63add-2882-46eb-9bfb-5644786a126b",
+        "id": "fc0c0220-f079-4711-8df5-9e3e8528a802",
         "severity": "critical"
       },
       "result": {
@@ -896,7 +896,7 @@
           "max_value": 1.0
         },
         "meta": {},
-        "id": "06b3f3c3-12e1-486a-9327-97629002a887",
+        "id": "b21fd97e-7d3b-4702-a034-c5befafd9b9e",
         "severity": "critical"
       },
       "result": {
@@ -925,7 +925,7 @@
           "column": "energy"
         },
         "meta": {},
-        "id": "1a516a86-961e-4cbe-bd8a-6c1401a569ed",
+        "id": "d22abe9d-dd88-4f52-b628-d0c5ec9e6a1f",
         "severity": "critical"
       },
       "result": {
@@ -951,7 +951,7 @@
           "type_": "float"
         },
         "meta": {},
-        "id": "787bb3b7-e837-4ae4-9dd8-2218dfc0279a",
+        "id": "7323aec8-8e3a-448c-ba26-9f918dfa15f2",
         "severity": "critical"
       },
       "result": {
@@ -975,7 +975,7 @@
           "max_value": 1.0
         },
         "meta": {},
-        "id": "dc5d6bfa-fae9-4a0c-a50c-459e19b47076",
+        "id": "6447e2b0-79af-438d-bf5a-0dc6985b1052",
         "severity": "critical"
       },
       "result": {
@@ -1004,7 +1004,7 @@
           "column": "key"
         },
         "meta": {},
-        "id": "4a7847b8-d969-4595-88e0-1b25309f8d9f",
+        "id": "b75312cb-3e7a-49b0-a749-409acab5b13e",
         "severity": "critical"
       },
       "result": {
@@ -1030,7 +1030,7 @@
           "type_": "int"
         },
         "meta": {},
-        "id": "84297912-c830-481f-8ee0-22e186bf4a83",
+        "id": "a1c0f6e2-beb4-4ff3-b9e8-6f76ae0dffac",
         "severity": "critical"
       },
       "result": {
@@ -1054,7 +1054,7 @@
           "max_value": 11.0
         },
         "meta": {},
-        "id": "0971bee4-ec58-4b97-b490-02b85e2bb251",
+        "id": "66c3f1ee-25d5-43cb-a1c8-930c8c8cd32c",
         "severity": "critical"
       },
       "result": {
@@ -1083,7 +1083,7 @@
           "column": "loudness"
         },
         "meta": {},
-        "id": "03539cec-4c9e-48ee-8c97-2bcf4ed8af58",
+        "id": "77b43310-d148-4264-9c78-df68706ddb73",
         "severity": "critical"
       },
       "result": {
@@ -1109,7 +1109,7 @@
           "type_": "float"
         },
         "meta": {},
-        "id": "b869e262-1a5e-4277-967e-629e95e7823a",
+        "id": "e0dc5e88-c1ce-43d3-afbb-41329a3f5f86",
         "severity": "critical"
       },
       "result": {
@@ -1133,7 +1133,7 @@
           "max_value": 5.0
         },
         "meta": {},
-        "id": "31c09a80-e8d9-4143-9419-2f59102f71da",
+        "id": "91ebdfbb-6e0a-455d-9259-891d3263b5f3",
         "severity": "critical"
       },
       "result": {
@@ -1167,7 +1167,7 @@
           "column": "mode"
         },
         "meta": {},
-        "id": "79c2a1fc-1424-4d02-bbbd-b6f24cc9df2b",
+        "id": "4436c1f3-0760-41d7-811f-b040fb706823",
         "severity": "critical"
       },
       "result": {
@@ -1193,7 +1193,7 @@
           "type_": "float"
         },
         "meta": {},
-        "id": "34ced71a-f0de-454f-94c2-344ceba94e8a",
+        "id": "1c075f36-f8cf-4b4c-bfa3-66dd7f33ee48",
         "severity": "critical"
       },
       "result": {
@@ -1217,7 +1217,7 @@
           "max_value": 1.0
         },
         "meta": {},
-        "id": "f5d85dc8-12da-4aeb-bf79-a17667e247e7",
+        "id": "afb830c8-2bda-428b-a322-42fb9ff112fa",
         "severity": "critical"
       },
       "result": {
@@ -1246,7 +1246,7 @@
           "column": "speechiness"
         },
         "meta": {},
-        "id": "4504317b-d5c5-493c-b840-db102811989e",
+        "id": "b9eb4020-aef8-4e0c-a038-17f02756a609",
         "severity": "critical"
       },
       "result": {
@@ -1272,7 +1272,7 @@
           "type_": "float"
         },
         "meta": {},
-        "id": "18736272-892d-469f-b607-9c476a53e34a",
+        "id": "78cd133e-768b-4d1f-9b0c-f824937481da",
         "severity": "critical"
       },
       "result": {
@@ -1296,7 +1296,7 @@
           "max_value": 1.0
         },
         "meta": {},
-        "id": "267071b8-03dc-41f9-ba2f-40bf7b11b123",
+        "id": "432fcec5-1e29-4d4f-8230-103ed396b8f3",
         "severity": "critical"
       },
       "result": {
@@ -1325,7 +1325,7 @@
           "column": "acousticness"
         },
         "meta": {},
-        "id": "6fadfed0-d112-48f7-9805-db5c4c1e996d",
+        "id": "92534aa8-543a-4404-993d-32c99f653a79",
         "severity": "critical"
       },
       "result": {
@@ -1351,7 +1351,7 @@
           "type_": "float"
         },
         "meta": {},
-        "id": "279fdbff-ac61-4480-b15a-794e101084d2",
+        "id": "6ea98c03-4b00-40fc-bc2c-9cd354b3e388",
         "severity": "critical"
       },
       "result": {
@@ -1375,7 +1375,7 @@
           "max_value": 1.0
         },
         "meta": {},
-        "id": "cf962bea-a3f8-4900-94e5-c3b40d554ca9",
+        "id": "7758b884-d325-4710-8f7f-7d5ce9ddeec7",
         "severity": "critical"
       },
       "result": {
@@ -1404,7 +1404,7 @@
           "column": "instrumentalness"
         },
         "meta": {},
-        "id": "dd54de8a-d348-46cf-9123-88fc2f33e877",
+        "id": "2285bf57-3afb-4336-b87f-24728e9eee46",
         "severity": "critical"
       },
       "result": {
@@ -1430,7 +1430,7 @@
           "type_": "float"
         },
         "meta": {},
-        "id": "6236db23-5ee0-49de-80f7-390ce00d72b8",
+        "id": "6bde6ad2-ee7f-42b9-bde4-f897f0327854",
         "severity": "critical"
       },
       "result": {
@@ -1454,7 +1454,7 @@
           "max_value": 1.0
         },
         "meta": {},
-        "id": "2caed7c8-d801-45c3-b4e6-9c426b78b070",
+        "id": "9c65f8ae-7966-4bef-ba39-15b94ec83304",
         "severity": "critical"
       },
       "result": {
@@ -1483,7 +1483,7 @@
           "column": "liveness"
         },
         "meta": {},
-        "id": "4d4e00d0-7518-433a-9aa1-3841169f41ec",
+        "id": "e0648ba2-119b-4949-856e-631e9f55ba62",
         "severity": "critical"
       },
       "result": {
@@ -1509,7 +1509,7 @@
           "type_": "float"
         },
         "meta": {},
-        "id": "0c26024b-9ebf-466c-b7bd-8ca6d8fa26a5",
+        "id": "22aa8762-31f6-4679-83f5-fe9a40212bb5",
         "severity": "critical"
       },
       "result": {
@@ -1533,7 +1533,7 @@
           "max_value": 1.0
         },
         "meta": {},
-        "id": "6e82f619-bc9d-4a97-9065-212776cb8c68",
+        "id": "5afe5167-1b99-4a79-9b01-ea49fc8e8c81",
         "severity": "critical"
       },
       "result": {
@@ -1562,7 +1562,7 @@
           "column": "valence"
         },
         "meta": {},
-        "id": "95e9f172-aa61-4c0e-9ef9-5aa7ca08ff79",
+        "id": "86c86d4a-b965-4595-a2ad-dc2e8a4d4032",
         "severity": "critical"
       },
       "result": {
@@ -1588,7 +1588,7 @@
           "type_": "float"
         },
         "meta": {},
-        "id": "159720b0-1ed6-45ae-b15b-b1d64efc8a2e",
+        "id": "b1b8cfbe-75d3-4e66-b569-302538b7f886",
         "severity": "critical"
       },
       "result": {
@@ -1612,7 +1612,7 @@
           "max_value": 1.0
         },
         "meta": {},
-        "id": "3cc90074-ecc2-4b0c-a124-ba8e600f34f7",
+        "id": "24ceb0a3-297b-4fd1-bd84-eb01e738dbf1",
         "severity": "critical"
       },
       "result": {
@@ -1641,7 +1641,7 @@
           "column": "tempo"
         },
         "meta": {},
-        "id": "128c7b98-dea5-49df-be76-34db1c77a3b3",
+        "id": "d817e4dd-518d-40c4-92e5-39678303a946",
         "severity": "critical"
       },
       "result": {
@@ -1667,7 +1667,7 @@
           "type_": "float"
         },
         "meta": {},
-        "id": "e4874040-cc2f-4704-9dac-89a3b21f3375",
+        "id": "0c3ebc4f-f2e5-4707-94cf-1b67a9a6ce1f",
         "severity": "critical"
       },
       "result": {
@@ -1691,7 +1691,7 @@
           "max_value": 256.0
         },
         "meta": {},
-        "id": "d4b689e9-b47d-4638-8c1f-bced9b62f49f",
+        "id": "10ddec50-e9d5-4992-ad83-b6af35ddb759",
         "severity": "critical"
       },
       "result": {
@@ -1720,7 +1720,7 @@
           "column": "time_signature"
         },
         "meta": {},
-        "id": "441c910c-bc31-4e88-972d-47a4caee36ee",
+        "id": "6ec6a177-fe64-4745-b966-cbde962e9888",
         "severity": "critical"
       },
       "result": {
@@ -1746,7 +1746,7 @@
           "type_": "int"
         },
         "meta": {},
-        "id": "5eca308b-8638-4a86-a068-35ee61b3ad96",
+        "id": "efbc5807-b7b2-45b7-9fc9-69d0ea0ef277",
         "severity": "critical"
       },
       "result": {
@@ -1770,7 +1770,7 @@
           "max_value": 5.0
         },
         "meta": {},
-        "id": "4fd7865f-3365-46cd-b339-8ff21399798e",
+        "id": "5f759f53-d445-4e0e-8b6f-534f4aed7d04",
         "severity": "critical"
       },
       "result": {
@@ -1804,13 +1804,13 @@
     "expectation_suite_name": "music_data_expectations",
     "run_id": {
       "run_name": null,
-      "run_time": "2026-03-03T09:09:46.644526+03:00"
+      "run_time": "2026-03-03T20:55:10.424603+03:00"
     },
     "batch_spec": {
       "batch_data": "PandasDataFrame"
     },
     "batch_markers": {
-      "ge_load_time": "20260303T060946.450639Z",
+      "ge_load_time": "20260303T175510.237274Z",
       "pandas_data_fingerprint": "3cfc584c5691d6c49d5ca4dbd9a4c6de"
     },
     "active_batch_definition": {
@@ -1821,7 +1821,7 @@
         "dataframe": "<DATAFRAME>"
       }
     },
-    "validation_time": "20260303T060946.644526Z",
+    "validation_time": "20260303T175510.424603Z",
     "checkpoint_name": null
   },
   "id": null
