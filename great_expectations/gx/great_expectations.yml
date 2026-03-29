@@ -83,11 +83,11 @@ data_docs_sites:
 fluent_datasources:
   music_data_source:
     type: pandas
-    id: 0d79b789-c108-424d-9faa-1bfa2b2e102f
+    id: 042c1a5c-2ec6-4c2a-a353-ca7fa945fcb0
     assets:
       music_data_asset:
         type: dataframe
-        id: 65306745-1f7e-426f-bc21-47a35169a18e
+        id: ad4e57a9-3663-45f7-b2fd-217eb932f11a
         batch_metadata: {}
 analytics_enabled:
-data_context_id: bed6a9f8-883f-4447-b8a6-d4f596e3670e
+data_context_id: 78ea8ca2-b356-4462-96ff-ad8bf331d0fc

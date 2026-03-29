@@ -1,0 +1,370 @@
+{
+  "expectations": [
+    {
+      "id": "0fa9a2d5-f4de-4ba7-ac52-01fdd9d4c8cb",
+      "kwargs": {
+        "column": "track_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "324b4ba3-16c8-4577-8292-d02946fcb02e",
+      "kwargs": {
+        "column": "artists"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "89cd1ea0-9855-4933-bbea-b22e6443065f",
+      "kwargs": {
+        "column": "album_name"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "b5379393-f97c-4963-87a9-f0e90bb70a14",
+      "kwargs": {
+        "column": "track_name"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "93772a5e-a6d3-45d9-afe7-b00e33d6475b",
+      "kwargs": {
+        "column": "popularity"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "9b5d5637-99a9-416d-9697-03c8ea125427",
+      "kwargs": {
+        "column": "duration_ms"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "35878a1e-8281-469d-8d4e-174fd5299ebd",
+      "kwargs": {
+        "column": "explicit"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "d9b03605-c8b2-418b-819e-a1fc01c0c208",
+      "kwargs": {
+        "column": "danceability"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "726614e1-abd8-47d3-bd1c-bab848dc62f8",
+      "kwargs": {
+        "column": "energy"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "aebd3a18-70d7-4b51-8803-181e0afd8ce7",
+      "kwargs": {
+        "column": "key"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "d84d2e49-1fcb-498d-93bd-26a2a0bf6bf1",
+      "kwargs": {
+        "column": "loudness"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "b9473b6e-e80d-4a98-b3bd-f682a7a478eb",
+      "kwargs": {
+        "column": "mode"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "1634d2f2-4164-45cd-9e9b-1d3d0795e6ce",
+      "kwargs": {
+        "column": "speechiness"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "1d68a6e4-791e-4cf4-b7e5-68adb2ca62fc",
+      "kwargs": {
+        "column": "acousticness"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "e12885f7-f896-46c5-8889-094c0ee79b6e",
+      "kwargs": {
+        "column": "instrumentalness"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "0d8d9af0-5bed-4562-b47c-b80d4c5de187",
+      "kwargs": {
+        "column": "liveness"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "cc0f91a7-768b-459f-8a97-4d5d55c63f0b",
+      "kwargs": {
+        "column": "valence"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "59a5a452-f6a2-4263-920d-90a0eb63dbab",
+      "kwargs": {
+        "column": "tempo"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "1a1980a6-f3ce-4121-93ec-31de1e2ebdd1",
+      "kwargs": {
+        "column": "time_signature"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "4e679381-abf5-4321-83f4-3ba9a4132583",
+      "kwargs": {
+        "column": "track_genre"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "f995969a-53ee-462b-9328-0707a94cfe57",
+      "kwargs": {
+        "column": "track_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "ca090fc7-69eb-4f2c-aba0-59d57ccc5c39",
+      "kwargs": {
+        "column": "artists"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "4a1661f8-50b3-4e53-a4c7-d12a81a6ff56",
+      "kwargs": {
+        "column": "album_name"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "74ed30b5-b340-40c0-b97a-0d40c09e3ade",
+      "kwargs": {
+        "column": "track_name"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "0a723386-5af9-432c-b29b-43f86305d1ff",
+      "kwargs": {
+        "column": "popularity"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "f3bdf5f5-3a84-42b9-b7ff-d70b3fb27b02",
+      "kwargs": {
+        "column": "duration_ms"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "bfa26428-0a60-4eb8-a8bb-51c464193178",
+      "kwargs": {
+        "column": "explicit"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "914e3937-99a4-420c-bc4b-6301fb5d4fd6",
+      "kwargs": {
+        "column": "danceability"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "ea1f342f-eb2f-4a9c-9482-33882a8b0d60",
+      "kwargs": {
+        "column": "energy"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "1ca31107-346c-459c-9104-a235a40f1966",
+      "kwargs": {
+        "column": "key"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "b15d8abd-179c-4b44-bf94-f21de3ae04e2",
+      "kwargs": {
+        "column": "loudness"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "eeaf8776-6200-49e0-9f77-1a021885c11f",
+      "kwargs": {
+        "column": "mode"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "f19e37d0-c480-45cc-98b6-bcdbffc6c208",
+      "kwargs": {
+        "column": "speechiness"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "a2bc757e-d70e-4e36-9f95-34e88ceb5165",
+      "kwargs": {
+        "column": "acousticness"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "5c1fce21-759c-46f0-8425-81fce3a7e06a",
+      "kwargs": {
+        "column": "instrumentalness"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "09cbd5f5-a5d6-46ee-a1b3-a01a808c18c7",
+      "kwargs": {
+        "column": "liveness"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "22673a66-25e0-4d4d-a2b4-f3fb2b265b9c",
+      "kwargs": {
+        "column": "valence"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "c87642a9-63bd-4922-9bfe-f2191e7f91fb",
+      "kwargs": {
+        "column": "tempo"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "58805d1e-6afc-41e8-9ca7-b522fe49d5f1",
+      "kwargs": {
+        "column": "time_signature"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "9b81845b-2178-4a24-9927-8a424cc935b7",
+      "kwargs": {
+        "column": "track_genre"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    }
+  ],
+  "id": "a81bb7e2-cdda-4c63-837d-9f02acc462c1",
+  "meta": {
+    "great_expectations_version": "1.13.0"
+  },
+  "name": "music_data_expectations",
+  "notes": null
+}
