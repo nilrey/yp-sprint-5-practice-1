@@ -94,7 +94,7 @@ data_docs_sites:
       class_name: DefaultSiteIndexBuilder
 
 anonymous_usage_statistics:
-  data_context_id: 2f70651c-00fe-42a9-b5dd-c3c904c01db8
+  data_context_id: cca5bdea-1819-411a-b3a0-0ab765ca45a3
   enabled: true
 fluent_datasources:
   music_data_source:

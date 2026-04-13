@@ -1850,138 +1850,706 @@
     {
       "success": true,
       "expectation_config": {
-        "expectation_type": "expect_column_values_to_be_in_set",
+        "expectation_type": "expect_column_distinct_values_to_be_in_set",
         "kwargs": {
           "column": "track_genre",
           "value_set": [
-            "french",
-            "idm",
-            "opera",
-            "jazz",
-            "children",
-            "iranian",
-            "garage",
-            "synth-pop",
-            "cantopop",
-            "folk",
-            "ambient",
-            "happy",
-            "death-metal",
-            "ska",
-            "comedy",
-            "alternative",
-            "latino",
-            "edm",
-            "dubstep",
-            "pagode",
-            "dub",
-            "reggae",
-            "soul",
-            "trip-hop",
-            "mandopop",
-            "rockabilly",
-            "world-music",
-            "brazil",
-            "british",
-            "guitar",
-            "study",
-            "pop",
-            "punk",
-            "malay",
-            "hardstyle",
-            "sertanejo",
-            "funk",
-            "punk-rock",
-            "tango",
-            "hardcore",
-            "pop-film",
-            "afrobeat",
-            "alt-rock",
-            "classical",
-            "deep-house",
-            "club",
-            "romance",
-            "house",
-            "j-pop",
-            "turkish",
-            "techno",
-            "industrial",
-            "new-age",
-            "disney",
-            "grindcore",
-            "r-n-b",
-            "indie-pop",
-            "electronic",
-            "hard-rock",
-            "heavy-metal",
-            "emo",
-            "rock",
-            "acoustic",
-            "salsa",
-            "sleep",
-            "trance",
-            "mpb",
-            "breakbeat",
-            "rock-n-roll",
-            "chicago-house",
-            "anime",
-            "german",
             "chill",
-            "metalcore",
-            "detroit-techno",
-            "disco",
-            "electro",
-            "k-pop",
-            "bluegrass",
-            "singer-songwriter",
-            "latin",
-            "indian",
+            "piano",
+            "party",
             "swedish",
             "indie",
-            "show-tunes",
-            "party",
-            "dance",
-            "j-rock",
-            "samba",
-            "country",
-            "grunge",
-            "power-pop",
-            "gospel",
-            "sad",
-            "dancehall",
+            "r-n-b",
             "metal",
-            "minimal-techno",
-            "psych-rock",
-            "songwriter",
-            "goth",
-            "honky-tonk",
-            "spanish",
-            "progressive-house",
-            "groove",
-            "drum-and-bass",
-            "forro",
-            "piano",
-            "blues",
-            "hip-hop",
-            "kids",
-            "j-idol",
-            "black-metal",
+            "electronic",
+            "alternative",
+            "trip-hop",
             "j-dance",
-            "reggaeton"
+            "sad",
+            "electro",
+            "grindcore",
+            "heavy-metal",
+            "pop",
+            "house",
+            "dubstep",
+            "indie-pop",
+            "classical",
+            "dancehall",
+            "progressive-house",
+            "psych-rock",
+            "hip-hop",
+            "black-metal",
+            "german",
+            "groove",
+            "alt-rock",
+            "detroit-techno",
+            "spanish",
+            "rockabilly",
+            "gospel",
+            "hardstyle",
+            "rock-n-roll",
+            "soul",
+            "acoustic",
+            "french",
+            "reggaeton",
+            "punk-rock",
+            "british",
+            "hardcore",
+            "pagode",
+            "k-pop",
+            "emo",
+            "children",
+            "punk",
+            "edm",
+            "chicago-house",
+            "goth",
+            "minimal-techno",
+            "ambient",
+            "reggae",
+            "deep-house",
+            "disco",
+            "pop-film",
+            "idm",
+            "hard-rock",
+            "opera",
+            "mpb",
+            "country",
+            "rock",
+            "iranian",
+            "j-rock",
+            "happy",
+            "funk",
+            "world-music",
+            "malay",
+            "trance",
+            "songwriter",
+            "study",
+            "turkish",
+            "guitar",
+            "mandopop",
+            "show-tunes",
+            "club",
+            "tango",
+            "brazil",
+            "romance",
+            "synth-pop",
+            "death-metal",
+            "honky-tonk",
+            "metalcore",
+            "bluegrass",
+            "latin",
+            "blues",
+            "grunge",
+            "latino",
+            "sleep",
+            "afrobeat",
+            "cantopop",
+            "disney",
+            "sertanejo",
+            "jazz",
+            "singer-songwriter",
+            "drum-and-bass",
+            "indian",
+            "ska",
+            "salsa",
+            "techno",
+            "breakbeat",
+            "industrial",
+            "comedy",
+            "dub",
+            "samba",
+            "dance",
+            "garage",
+            "power-pop",
+            "forro",
+            "j-idol",
+            "j-pop",
+            "new-age",
+            "folk",
+            "kids",
+            "anime"
           ],
           "batch_id": "music_data_source-music_data_asset"
         },
         "meta": {}
       },
       "result": {
-        "element_count": 114000,
-        "unexpected_count": 0,
-        "unexpected_percent": 0.0,
-        "partial_unexpected_list": [],
-        "missing_count": 0,
-        "missing_percent": 0.0,
-        "unexpected_percent_total": 0.0,
-        "unexpected_percent_nonmissing": 0.0
+        "observed_value": [
+          "acoustic",
+          "afrobeat",
+          "alt-rock",
+          "alternative",
+          "ambient",
+          "anime",
+          "black-metal",
+          "bluegrass",
+          "blues",
+          "brazil",
+          "breakbeat",
+          "british",
+          "cantopop",
+          "chicago-house",
+          "children",
+          "chill",
+          "classical",
+          "club",
+          "comedy",
+          "country",
+          "dance",
+          "dancehall",
+          "death-metal",
+          "deep-house",
+          "detroit-techno",
+          "disco",
+          "disney",
+          "drum-and-bass",
+          "dub",
+          "dubstep",
+          "edm",
+          "electro",
+          "electronic",
+          "emo",
+          "folk",
+          "forro",
+          "french",
+          "funk",
+          "garage",
+          "german",
+          "gospel",
+          "goth",
+          "grindcore",
+          "groove",
+          "grunge",
+          "guitar",
+          "happy",
+          "hard-rock",
+          "hardcore",
+          "hardstyle",
+          "heavy-metal",
+          "hip-hop",
+          "honky-tonk",
+          "house",
+          "idm",
+          "indian",
+          "indie",
+          "indie-pop",
+          "industrial",
+          "iranian",
+          "j-dance",
+          "j-idol",
+          "j-pop",
+          "j-rock",
+          "jazz",
+          "k-pop",
+          "kids",
+          "latin",
+          "latino",
+          "malay",
+          "mandopop",
+          "metal",
+          "metalcore",
+          "minimal-techno",
+          "mpb",
+          "new-age",
+          "opera",
+          "pagode",
+          "party",
+          "piano",
+          "pop",
+          "pop-film",
+          "power-pop",
+          "progressive-house",
+          "psych-rock",
+          "punk",
+          "punk-rock",
+          "r-n-b",
+          "reggae",
+          "reggaeton",
+          "rock",
+          "rock-n-roll",
+          "rockabilly",
+          "romance",
+          "sad",
+          "salsa",
+          "samba",
+          "sertanejo",
+          "show-tunes",
+          "singer-songwriter",
+          "ska",
+          "sleep",
+          "songwriter",
+          "soul",
+          "spanish",
+          "study",
+          "swedish",
+          "synth-pop",
+          "tango",
+          "techno",
+          "trance",
+          "trip-hop",
+          "turkish",
+          "world-music"
+        ],
+        "details": {
+          "value_counts": [
+            {
+              "value": "acoustic",
+              "count": 1000
+            },
+            {
+              "value": "afrobeat",
+              "count": 1000
+            },
+            {
+              "value": "alt-rock",
+              "count": 1000
+            },
+            {
+              "value": "alternative",
+              "count": 1000
+            },
+            {
+              "value": "ambient",
+              "count": 1000
+            },
+            {
+              "value": "anime",
+              "count": 1000
+            },
+            {
+              "value": "black-metal",
+              "count": 1000
+            },
+            {
+              "value": "bluegrass",
+              "count": 1000
+            },
+            {
+              "value": "blues",
+              "count": 1000
+            },
+            {
+              "value": "brazil",
+              "count": 1000
+            },
+            {
+              "value": "breakbeat",
+              "count": 1000
+            },
+            {
+              "value": "british",
+              "count": 1000
+            },
+            {
+              "value": "cantopop",
+              "count": 1000
+            },
+            {
+              "value": "chicago-house",
+              "count": 1000
+            },
+            {
+              "value": "children",
+              "count": 1000
+            },
+            {
+              "value": "chill",
+              "count": 1000
+            },
+            {
+              "value": "classical",
+              "count": 1000
+            },
+            {
+              "value": "club",
+              "count": 1000
+            },
+            {
+              "value": "comedy",
+              "count": 1000
+            },
+            {
+              "value": "country",
+              "count": 1000
+            },
+            {
+              "value": "dance",
+              "count": 1000
+            },
+            {
+              "value": "dancehall",
+              "count": 1000
+            },
+            {
+              "value": "death-metal",
+              "count": 1000
+            },
+            {
+              "value": "deep-house",
+              "count": 1000
+            },
+            {
+              "value": "detroit-techno",
+              "count": 1000
+            },
+            {
+              "value": "disco",
+              "count": 1000
+            },
+            {
+              "value": "disney",
+              "count": 1000
+            },
+            {
+              "value": "drum-and-bass",
+              "count": 1000
+            },
+            {
+              "value": "dub",
+              "count": 1000
+            },
+            {
+              "value": "dubstep",
+              "count": 1000
+            },
+            {
+              "value": "edm",
+              "count": 1000
+            },
+            {
+              "value": "electro",
+              "count": 1000
+            },
+            {
+              "value": "electronic",
+              "count": 1000
+            },
+            {
+              "value": "emo",
+              "count": 1000
+            },
+            {
+              "value": "folk",
+              "count": 1000
+            },
+            {
+              "value": "forro",
+              "count": 1000
+            },
+            {
+              "value": "french",
+              "count": 1000
+            },
+            {
+              "value": "funk",
+              "count": 1000
+            },
+            {
+              "value": "garage",
+              "count": 1000
+            },
+            {
+              "value": "german",
+              "count": 1000
+            },
+            {
+              "value": "gospel",
+              "count": 1000
+            },
+            {
+              "value": "goth",
+              "count": 1000
+            },
+            {
+              "value": "grindcore",
+              "count": 1000
+            },
+            {
+              "value": "groove",
+              "count": 1000
+            },
+            {
+              "value": "grunge",
+              "count": 1000
+            },
+            {
+              "value": "guitar",
+              "count": 1000
+            },
+            {
+              "value": "happy",
+              "count": 1000
+            },
+            {
+              "value": "hard-rock",
+              "count": 1000
+            },
+            {
+              "value": "hardcore",
+              "count": 1000
+            },
+            {
+              "value": "hardstyle",
+              "count": 1000
+            },
+            {
+              "value": "heavy-metal",
+              "count": 1000
+            },
+            {
+              "value": "hip-hop",
+              "count": 1000
+            },
+            {
+              "value": "honky-tonk",
+              "count": 1000
+            },
+            {
+              "value": "house",
+              "count": 1000
+            },
+            {
+              "value": "idm",
+              "count": 1000
+            },
+            {
+              "value": "indian",
+              "count": 1000
+            },
+            {
+              "value": "indie",
+              "count": 1000
+            },
+            {
+              "value": "indie-pop",
+              "count": 1000
+            },
+            {
+              "value": "industrial",
+              "count": 1000
+            },
+            {
+              "value": "iranian",
+              "count": 1000
+            },
+            {
+              "value": "j-dance",
+              "count": 1000
+            },
+            {
+              "value": "j-idol",
+              "count": 1000
+            },
+            {
+              "value": "j-pop",
+              "count": 1000
+            },
+            {
+              "value": "j-rock",
+              "count": 1000
+            },
+            {
+              "value": "jazz",
+              "count": 1000
+            },
+            {
+              "value": "k-pop",
+              "count": 1000
+            },
+            {
+              "value": "kids",
+              "count": 1000
+            },
+            {
+              "value": "latin",
+              "count": 1000
+            },
+            {
+              "value": "latino",
+              "count": 1000
+            },
+            {
+              "value": "malay",
+              "count": 1000
+            },
+            {
+              "value": "mandopop",
+              "count": 1000
+            },
+            {
+              "value": "metal",
+              "count": 1000
+            },
+            {
+              "value": "metalcore",
+              "count": 1000
+            },
+            {
+              "value": "minimal-techno",
+              "count": 1000
+            },
+            {
+              "value": "mpb",
+              "count": 1000
+            },
+            {
+              "value": "new-age",
+              "count": 1000
+            },
+            {
+              "value": "opera",
+              "count": 1000
+            },
+            {
+              "value": "pagode",
+              "count": 1000
+            },
+            {
+              "value": "party",
+              "count": 1000
+            },
+            {
+              "value": "piano",
+              "count": 1000
+            },
+            {
+              "value": "pop",
+              "count": 1000
+            },
+            {
+              "value": "pop-film",
+              "count": 1000
+            },
+            {
+              "value": "power-pop",
+              "count": 1000
+            },
+            {
+              "value": "progressive-house",
+              "count": 1000
+            },
+            {
+              "value": "psych-rock",
+              "count": 1000
+            },
+            {
+              "value": "punk",
+              "count": 1000
+            },
+            {
+              "value": "punk-rock",
+              "count": 1000
+            },
+            {
+              "value": "r-n-b",
+              "count": 1000
+            },
+            {
+              "value": "reggae",
+              "count": 1000
+            },
+            {
+              "value": "reggaeton",
+              "count": 1000
+            },
+            {
+              "value": "rock",
+              "count": 1000
+            },
+            {
+              "value": "rock-n-roll",
+              "count": 1000
+            },
+            {
+              "value": "rockabilly",
+              "count": 1000
+            },
+            {
+              "value": "romance",
+              "count": 1000
+            },
+            {
+              "value": "sad",
+              "count": 1000
+            },
+            {
+              "value": "salsa",
+              "count": 1000
+            },
+            {
+              "value": "samba",
+              "count": 1000
+            },
+            {
+              "value": "sertanejo",
+              "count": 1000
+            },
+            {
+              "value": "show-tunes",
+              "count": 1000
+            },
+            {
+              "value": "singer-songwriter",
+              "count": 1000
+            },
+            {
+              "value": "ska",
+              "count": 1000
+            },
+            {
+              "value": "sleep",
+              "count": 1000
+            },
+            {
+              "value": "songwriter",
+              "count": 1000
+            },
+            {
+              "value": "soul",
+              "count": 1000
+            },
+            {
+              "value": "spanish",
+              "count": 1000
+            },
+            {
+              "value": "study",
+              "count": 1000
+            },
+            {
+              "value": "swedish",
+              "count": 1000
+            },
+            {
+              "value": "synth-pop",
+              "count": 1000
+            },
+            {
+              "value": "tango",
+              "count": 1000
+            },
+            {
+              "value": "techno",
+              "count": 1000
+            },
+            {
+              "value": "trance",
+              "count": 1000
+            },
+            {
+              "value": "trip-hop",
+              "count": 1000
+            },
+            {
+              "value": "turkish",
+              "count": 1000
+            },
+            {
+              "value": "world-music",
+              "count": 1000
+            }
+          ]
+        }
       },
       "meta": {},
       "exception_info": {
@@ -2027,13 +2595,13 @@
     "expectation_suite_name": "music_data_expectations",
     "run_id": {
       "run_name": null,
-      "run_time": "2026-04-13T16:14:36.577566+03:00"
+      "run_time": "2026-04-13T16:47:19.995016+03:00"
     },
     "batch_spec": {
       "batch_data": "PandasDataFrame"
     },
     "batch_markers": {
-      "ge_load_time": "20260413T131436.468722Z",
+      "ge_load_time": "20260413T134719.884907Z",
       "pandas_data_fingerprint": "3cfc584c5691d6c49d5ca4dbd9a4c6de"
     },
     "active_batch_definition": {
@@ -2042,7 +2610,7 @@
       "data_asset_name": "music_data_asset",
       "batch_identifiers": {}
     },
-    "validation_time": "20260413T131436.577566Z",
+    "validation_time": "20260413T134719.995016Z",
     "checkpoint_name": null
   }
 }
