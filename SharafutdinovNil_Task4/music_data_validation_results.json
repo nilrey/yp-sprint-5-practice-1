@@ -1,0 +1,2048 @@
+{
+  "success": false,
+  "results": [
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_to_exist",
+        "kwargs": {
+          "column": "track_id",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "track_id",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "track_id",
+          "type_": "str",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_value_lengths_to_equal",
+        "kwargs": {
+          "column": "track_id",
+          "value": 22,
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_to_exist",
+        "kwargs": {
+          "column": "artists",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "artists",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 1,
+        "unexpected_percent": 0.0008771929824561403,
+        "partial_unexpected_list": [
+          null
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "artists",
+          "type_": "str",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "expectation_type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+          "column": "artists",
+          "min_value": 2,
+          "max_value": 512,
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 1,
+        "unexpected_percent": 0.0008772006771989228,
+        "partial_unexpected_list": [
+          "Ariana DeBose;David Alvarez;Ana Isabelle;Jennifer Florentino;Natalie Toro;Arianna Rosario;Ilda Mason;Jeanette Delgado;Annelise Cepero;Tanairi Sade Vazquez;Jamila Velazquez;Edriz E. Rosa Pérez;Melody Martí;Gaby Diaz;Juliette Feliciano;Isabella Ward;Maria Alexis Rodriguez;Yesenia Ayala;Gabriela M. Soto;Sebastian Serra;Julius Anthony Rubio;Ricardo A. Zayas;Yurel Echezarreta;Kelvin Delgado;Ricky Ubeda;Carlos Sánchez Falú;Adriel Flete;Jacob Guzman;Carlos E. Gonzalez;David Avilés Morales;Andrei Chagas;David Guzman"
+        ],
+        "missing_count": 1,
+        "missing_percent": 0.0008771929824561403,
+        "unexpected_percent_total": 0.0008771929824561403,
+        "unexpected_percent_nonmissing": 0.0008772006771989228
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_to_exist",
+        "kwargs": {
+          "column": "album_name",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "album_name",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 1,
+        "unexpected_percent": 0.0008771929824561403,
+        "partial_unexpected_list": [
+          null
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "album_name",
+          "type_": "str",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "expectation_type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+          "column": "album_name",
+          "min_value": 2,
+          "max_value": 512,
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 166,
+        "unexpected_percent": 0.14561531241502118,
+        "partial_unexpected_list": [
+          "0",
+          "E",
+          "V",
+          "4",
+          "&",
+          "炎",
+          "虹",
+          "炎",
+          "4",
+          "E",
+          "E",
+          "E",
+          "I",
+          "F",
+          "乾",
+          "紅",
+          "8",
+          "紅",
+          "i",
+          "9"
+        ],
+        "missing_count": 1,
+        "missing_percent": 0.0008771929824561403,
+        "unexpected_percent_total": 0.1456140350877193,
+        "unexpected_percent_nonmissing": 0.14561531241502118
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_to_exist",
+        "kwargs": {
+          "column": "track_name",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "track_name",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 1,
+        "unexpected_percent": 0.0008771929824561403,
+        "partial_unexpected_list": [
+          null
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "track_name",
+          "type_": "str",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "expectation_type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+          "column": "track_name",
+          "min_value": 2,
+          "max_value": 512,
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 63,
+        "unexpected_percent": 0.05526364266353214,
+        "partial_unexpected_list": [
+          "I",
+          "炎",
+          "上",
+          "嘘",
+          "私",
+          "虹",
+          "炎",
+          "燕",
+          "勇",
+          "乾",
+          "心",
+          "圓",
+          "追",
+          "海",
+          "愛",
+          "怯",
+          "冬",
+          "悶",
+          "7",
+          "X"
+        ],
+        "missing_count": 1,
+        "missing_percent": 0.0008771929824561403,
+        "unexpected_percent_total": 0.05526315789473684,
+        "unexpected_percent_nonmissing": 0.05526364266353214
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_to_exist",
+        "kwargs": {
+          "column": "popularity",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "popularity",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "popularity",
+          "type_": "int",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "observed_value": "int64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "column": "popularity",
+          "min_value": 0,
+          "max_value": 100,
+          "strict_min": false,
+          "strict_max": false,
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_to_exist",
+        "kwargs": {
+          "column": "duration_ms",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "duration_ms",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "duration_ms",
+          "type_": "int",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "observed_value": "int64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "column": "duration_ms",
+          "min_value": 0,
+          "max_value": 5237760,
+          "strict_min": true,
+          "strict_max": false,
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 1,
+        "unexpected_percent": 0.0008771929824561403,
+        "partial_unexpected_list": [
+          0
+        ],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0008771929824561403,
+        "unexpected_percent_nonmissing": 0.0008771929824561403
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_to_exist",
+        "kwargs": {
+          "column": "explicit",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "explicit",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "explicit",
+          "type_": "bool",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "observed_value": "bool_"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_to_exist",
+        "kwargs": {
+          "column": "danceability",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "danceability",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "danceability",
+          "type_": "float",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "column": "danceability",
+          "min_value": 0,
+          "max_value": 1,
+          "strict_min": false,
+          "strict_max": false,
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_to_exist",
+        "kwargs": {
+          "column": "energy",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "energy",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "energy",
+          "type_": "float",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "column": "energy",
+          "min_value": 0,
+          "max_value": 1,
+          "strict_min": false,
+          "strict_max": false,
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_to_exist",
+        "kwargs": {
+          "column": "key",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "key",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "key",
+          "type_": "int",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "observed_value": "int64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "column": "key",
+          "min_value": 0,
+          "max_value": 11,
+          "strict_min": false,
+          "strict_max": false,
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_to_exist",
+        "kwargs": {
+          "column": "loudness",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "loudness",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "loudness",
+          "type_": "float",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "column": "loudness",
+          "min_value": -45,
+          "max_value": 5,
+          "strict_min": false,
+          "strict_max": false,
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 4,
+        "unexpected_percent": 0.003508771929824561,
+        "partial_unexpected_list": [
+          -46.251,
+          -49.307,
+          -46.591,
+          -49.531
+        ],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.003508771929824561,
+        "unexpected_percent_nonmissing": 0.003508771929824561
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_to_exist",
+        "kwargs": {
+          "column": "mode",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "mode",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "mode",
+          "type_": "float",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "observed_value": "int64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "column": "mode",
+          "min_value": 0,
+          "max_value": 1,
+          "strict_min": false,
+          "strict_max": false,
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_to_exist",
+        "kwargs": {
+          "column": "speechiness",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "speechiness",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "speechiness",
+          "type_": "float",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "column": "speechiness",
+          "min_value": 0,
+          "max_value": 1,
+          "strict_min": false,
+          "strict_max": false,
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_to_exist",
+        "kwargs": {
+          "column": "acousticness",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "acousticness",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "acousticness",
+          "type_": "float",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "column": "acousticness",
+          "min_value": 0,
+          "max_value": 1,
+          "strict_min": false,
+          "strict_max": false,
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_to_exist",
+        "kwargs": {
+          "column": "instrumentalness",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "instrumentalness",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "instrumentalness",
+          "type_": "float",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "column": "instrumentalness",
+          "min_value": 0,
+          "max_value": 1,
+          "strict_min": false,
+          "strict_max": false,
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_to_exist",
+        "kwargs": {
+          "column": "liveness",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "liveness",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "liveness",
+          "type_": "float",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "column": "liveness",
+          "min_value": 0,
+          "max_value": 1,
+          "strict_min": false,
+          "strict_max": false,
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_to_exist",
+        "kwargs": {
+          "column": "valence",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "valence",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "valence",
+          "type_": "float",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "column": "valence",
+          "min_value": 0,
+          "max_value": 1,
+          "strict_min": false,
+          "strict_max": false,
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_to_exist",
+        "kwargs": {
+          "column": "tempo",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "tempo",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "tempo",
+          "type_": "float",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "observed_value": "float64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "column": "tempo",
+          "min_value": 0,
+          "max_value": 256,
+          "strict_min": false,
+          "strict_max": false,
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_to_exist",
+        "kwargs": {
+          "column": "time_signature",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "time_signature",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "time_signature",
+          "type_": "int",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "observed_value": "int64"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "column": "time_signature",
+          "min_value": 0,
+          "max_value": 5,
+          "strict_min": false,
+          "strict_max": false,
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_to_exist",
+        "kwargs": {
+          "column": "track_genre",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "track_genre",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "track_genre",
+          "type_": "str",
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "observed_value": "str"
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "column": "track_genre",
+          "value_set": [
+            "j-idol",
+            "acoustic",
+            "forro",
+            "turkish",
+            "breakbeat",
+            "brazil",
+            "songwriter",
+            "detroit-techno",
+            "kids",
+            "german",
+            "edm",
+            "dancehall",
+            "soul",
+            "grunge",
+            "reggae",
+            "gospel",
+            "classical",
+            "minimal-techno",
+            "tango",
+            "synth-pop",
+            "death-metal",
+            "british",
+            "sertanejo",
+            "club",
+            "world-music",
+            "cantopop",
+            "j-pop",
+            "dubstep",
+            "pop-film",
+            "funk",
+            "guitar",
+            "honky-tonk",
+            "electronic",
+            "reggaeton",
+            "mpb",
+            "singer-songwriter",
+            "comedy",
+            "progressive-house",
+            "blues",
+            "grindcore",
+            "j-rock",
+            "opera",
+            "jazz",
+            "indie",
+            "sleep",
+            "drum-and-bass",
+            "hardstyle",
+            "children",
+            "malay",
+            "latino",
+            "pop",
+            "trance",
+            "mandopop",
+            "dance",
+            "ska",
+            "new-age",
+            "romance",
+            "hardcore",
+            "idm",
+            "rockabilly",
+            "bluegrass",
+            "latin",
+            "samba",
+            "pagode",
+            "alt-rock",
+            "swedish",
+            "industrial",
+            "deep-house",
+            "hip-hop",
+            "black-metal",
+            "rock",
+            "salsa",
+            "electro",
+            "metalcore",
+            "alternative",
+            "k-pop",
+            "indian",
+            "spanish",
+            "emo",
+            "rock-n-roll",
+            "disney",
+            "heavy-metal",
+            "techno",
+            "indie-pop",
+            "happy",
+            "punk-rock",
+            "show-tunes",
+            "folk",
+            "garage",
+            "power-pop",
+            "afrobeat",
+            "punk",
+            "goth",
+            "house",
+            "ambient",
+            "study",
+            "disco",
+            "psych-rock",
+            "dub",
+            "j-dance",
+            "party",
+            "r-n-b",
+            "metal",
+            "iranian",
+            "trip-hop",
+            "hard-rock",
+            "groove",
+            "chill",
+            "sad",
+            "country",
+            "chicago-house",
+            "french",
+            "piano",
+            "anime"
+          ],
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "element_count": 114000,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "expectation_type": "expect_column_unique_value_count_to_be_between",
+        "kwargs": {
+          "column": "track_genre",
+          "min_value": 114,
+          "max_value": 114,
+          "strict_min": false,
+          "strict_max": false,
+          "batch_id": "music_data_source-music_data_asset"
+        },
+        "meta": {}
+      },
+      "result": {
+        "observed_value": 114
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    }
+  ],
+  "evaluation_parameters": {},
+  "statistics": {
+    "evaluated_expectations": 80,
+    "successful_expectations": 67,
+    "unsuccessful_expectations": 13,
+    "success_percent": 83.75
+  },
+  "meta": {
+    "great_expectations_version": "0.18.21",
+    "expectation_suite_name": "music_data_expectations",
+    "run_id": {
+      "run_name": null,
+      "run_time": "2026-04-13T15:59:19.492349+03:00"
+    },
+    "batch_spec": {
+      "batch_data": "PandasDataFrame"
+    },
+    "batch_markers": {
+      "ge_load_time": "20260413T125919.380418Z",
+      "pandas_data_fingerprint": "3cfc584c5691d6c49d5ca4dbd9a4c6de"
+    },
+    "active_batch_definition": {
+      "datasource_name": "music_data_source",
+      "data_connector_name": "fluent",
+      "data_asset_name": "music_data_asset",
+      "batch_identifiers": {}
+    },
+    "validation_time": "20260413T125919.492349Z",
+    "checkpoint_name": null
+  }
+}
